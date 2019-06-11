@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor[data-grammar='source sql']": [
+      {
+        "label": "Format DBT jinja/sql code",
+        "command": "atom-dbt-formatter:format"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "DBT formatter",
+          "submenu": [
+            {
+              "label": "Format sql",
+              "command": "atom-dbt-formatter:format"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

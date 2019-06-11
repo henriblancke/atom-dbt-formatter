@@ -1,0 +1,35 @@
+{
+  "name": "atom-dbt-formatter",
+  "version": "1.0.0",
+  "description": "Atom dbt jinja, sql formatter",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriblancke/atom-dbt-formatter.git"
+  },
+  "keywords": [
+    "dbt",
+    "formatter",
+    "atom",
+    "jinja",
+    "sql"
+  ],
+  "author": "Henri Blancke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henriblancke/atom-dbt-formatter/issues"
+  },
+  "homepage": "https://github.com/henriblancke/atom-dbt-formatter#readme",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "dbt-formatter": "^1.0.0"
+  }
+}
