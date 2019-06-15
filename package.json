@@ -30,6 +30,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "dbt-formatter": "^1.0.2"
+    "dbt-formatter": "^1.0.3"
   }
 }
