@@ -14,5 +14,12 @@ apm install atom-dbt-formatter
 - Go to Packages > DBT formatter > Format.
 - Use the  `ctrl-alt-d` shortcut to format jinja-flavored SQL.
 
-## issues
+## Development
+```bash
+npm install
+apm link -d
+atom -d
+```
+
+## Issues
 Please report issues in the [dbt-formatter](https://github.com/henriblancke/dbt-formatter) project. Any feedback on the formatting is welcome as well!
